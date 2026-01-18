@@ -121,7 +121,7 @@ const AboutHero = () => {
               <span className="font-bold text-zinc-900 dark:text-white">
                 Harsh
               </span>
-              . A Passionate about creating{" "}
+              , Passionate about creating{" "}
               <span className="font-bold text-zinc-900 dark:text-white">
                 intuitive and engaging
               </span>{" "}
