@@ -27,7 +27,7 @@ const Hero = () => {
 
 
   return (
-    <section className="max-w-2xl mx-auto px-6 ">
+    <section className="max-w-3xl mx-auto px-6 ">
       {/* Banner Section */}
    
       {/* Content Section */}

@@ -9,7 +9,7 @@ const TechStack = () => {
   const isDarkMode = theme === "dark";
   
   return (
-    <div className="max-w-2xl mx-auto px-6 py-2 ">
+    <div className="max-w-3xl mx-auto px-6 py-2 ">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}

@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import ClientLayout from "../components/ClientLayout";
-
+import Navbar from "@/components/navbar";
+import Plum from "@/components/Plum";
+import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
   title: "Portfolio",
@@ -13,11 +15,15 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-
   return (
     <html lang="en">
       <body>
-        <ClientLayout>{children}</ClientLayout>
+        <ClientLayout>
+          <Navbar />
+          <Plum />
+          {children}
+          <Footer />
+        </ClientLayout>
       </body>
     </html>
   );

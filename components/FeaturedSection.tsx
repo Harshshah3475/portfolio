@@ -22,7 +22,7 @@ const FeaturedSection = () => {
 
 
   return (
-    <section className="max-w-2xl mx-auto px-6 -mb-8">
+    <section className="max-w-3xl mx-auto px-6 -mb-8">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}

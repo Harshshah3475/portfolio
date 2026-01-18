@@ -45,8 +45,8 @@ export default function Home() {
           : "bg-white text-slate-900 selection:bg-zinc-100 selection:text-zinc-900"
       } overflow-x-hidden relative`}
     >
-      <Plum />
-      <Navbar />
+     
+
 
       <motion.div variants={itemVariants} className="relative z-50">
         <Header />
@@ -67,9 +67,7 @@ export default function Home() {
       <motion.div variants={itemVariants} className="relative z-10">
         <TechStack />
       </motion.div>
-      <motion.div variants={itemVariants} className="relative z-10">
-        <Footer />
-      </motion.div>
+     
      
     </motion.main>
   );

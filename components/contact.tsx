@@ -81,7 +81,7 @@ const Contact = () => {
   ];
   return (
     <div
-     className={`max-w-2xl mx-auto px-6 py-2 ${
+     className={`max-w-3xl mx-auto px-6 py-2 ${
           isDarkMode ? "border-white/5" : "border-black/5"
         } border-b pb-12`}
     >

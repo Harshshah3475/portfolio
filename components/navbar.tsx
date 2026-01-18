@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import ToggleTheme from "./ToggleTheme";
 import { useTheme } from "../context/ThemeContext";
+import Link from "next/link";
 
 const Navbar: React.FC = () => {
   const { theme, toggleTheme } = useTheme();
@@ -35,18 +36,18 @@ const Navbar: React.FC = () => {
         }`}
       >
         <div className="flex items-center gap-6 md:gap-8 mr-4">
-          {["Home", "About", "Projects"].map((item) => (
-            <a
-              key={item}
-              href="#"
+          {[{nav:"Home", href:"/"}, {nav:"About", href:"/about"}, {nav:"Projects", href:"/projects"}].map((item) => (
+            <Link
+              key={item.nav}
+              href={item.href}
               className={`text-sm font-medium transition-colors duration-300 ${
                 isDarkMode
                   ? "text-zinc-400 hover:text-white"
                   : "text-zinc-800 hover:text-black"
               }`}
             >
-              {item}
-            </a>
+              {item.nav}
+            </Link>
           ))}
         </div>
 

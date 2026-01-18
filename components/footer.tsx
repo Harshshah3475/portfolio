@@ -67,12 +67,6 @@ const Footer = () => {
             Harsh Kumar shah
           </a>
         </div>
-        <div className="uppercase flex items-center gap-1.5 opacity-90 transition-opacity hover:opacity-100">
-          <span className="font-light">Inspired by</span>
-          <a href="https://shivammer.vercel.app/" target="_blank" rel="noopener noreferrer" className="font-serif italic text-[12px] text-zinc-900 dark:text-zinc-100 capitalize font-medium relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-px after:bg-zinc-800 dark:after:bg-zinc-200 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left cursor-pointer">
-            Shivam Singh Mer
-          </a>
-        </div>
       </motion.footer>
     </div>
   );

@@ -11,7 +11,7 @@ const Header = () => {
     "https://i.pinimg.com/originals/51/2f/c3/512fc362a4ca2663778db016c2b7f703.gif";
 
   return (
-    <section className="max-w-2xl mx-auto px-6 pt-24">
+    <section className="max-w-3xl mx-auto px-6 pt-24">
       <motion.div
         initial={{ opacity: 0, scale: 0.98 }}
         animate={{ opacity: 1, scale: 1 }}

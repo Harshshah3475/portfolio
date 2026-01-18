@@ -151,7 +151,7 @@ const GithubSection = () => {
   }
 
   return (
-    <section className={`max-w-2xl mx-auto px-6 py-2 ${
+    <section className={`max-w-3xl mx-auto px-6 py-2 ${
           isDarkMode ? "border-white/5" : "border-black/5"
         } pt-12 border-b pb-12`}>
       <style jsx>{`
